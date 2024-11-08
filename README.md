@@ -16,7 +16,13 @@ The Pytest coverage report is located at ./examtask1/htmlcov/class_index.html.
 
 # Installation and Configuration
 To install the required dependencies, navigate to the project directory in the terminal and run:
-'pip install -r requirements.txt'
+'pip install -r requirements.txt' or 'pip3 install -r requirements.txt'
+
+# Troubleshooting if circles package doesn't download properly
+Type these commands into the terminal at the project level.
+- 'cd dist'
+- 'pip install .\circles-1.0-py3-none-any.whl' or 'pip install circles' + Tab button
+
 # Running Tests
 For complete test coverage, execute the following command in the terminal at the project level:
 'pytest tests'
